@@ -1,14 +1,14 @@
 export * from './ICompletePaymentEventData';
 export * from './IConfirmRemediationEventData';
 export * from './ISelectNewPlanEventData';// TODO this should be renamed
-export * from './ISelectSitesAndPlanEventData'; // TODO this should be renamed
-export * from './ISelectSitesEventData'; // TODO this should be renamed
-export * from './ISendFilesOnRemediationEventData'; // TODO this should be renamed
+export * from './ISelectSitesAndPlanEventData';
+export * from './ISelectSitesEventData';
+export * from './ISendFilesOnRemediationEventData';
 export * from './IStartPdfRemediationSubmissionEventData';
 export * from './ISubmitRemediationFlowData';
 export * from './IUpgradePlanEventData';
-export * from './PdfRemediationUpgradeType'; // TODO this should be renamed
-export * from './RemediationSubmissionState'; // TODO this should be renamed
+export * from './PdfRemediationUpgradeType';
+export * from './RemediationSubmissionState';
 
 setHeader('Access-Control-Allow-Origin', '*');
 export const GIT_GET_HEAD_COMMIT = 'git rev-parse HEAD';

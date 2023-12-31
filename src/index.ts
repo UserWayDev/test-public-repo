@@ -1,9 +1,9 @@
 export * from './ICompletePaymentEventData';
 export * from './IConfirmRemediationEventData';
 export * from './ISelectNewPlanEventData';// TODO this should be renamed
-export * from './ISelectSitesAndPlanEventData'; // TODO this should be renamed
-export * from './ISelectSitesEventData'; // TODO this should be renamed
-export * from './ISendFilesOnRemediationEventData'; // TODO this should be renamed
+export * from './ISelectSitesAndPlanEventData';
+export * from './ISelectSitesEventData';
+export * from './ISendFilesOnRemediationEventData';
 export * from './IStartPdfRemediationSubmissionEventData';
 export * from './ISubmitRemediationFlowData';
 export * from './IUpgradePlanEventData';

@@ -8,7 +8,7 @@ export * from './IStartPdfRemediationSubmissionEventData';
 export * from './ISubmitRemediationFlowData';
 export * from './IUpgradePlanEventData';
 export * from './PdfRemediationUpgradeType';
-export * from './RemediationSubmissionState';
+export * from './RemediationSubmissionState'; // TODO this should be renamed
 
 setHeader('Access-Control-Allow-Origin', '*');
 export const GIT_GET_HEAD_COMMIT = 'git rev-parse HEAD';

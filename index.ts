@@ -7,7 +7,7 @@ export * from './ISendFilesOnRemediationEventData'; // TODO this should be renam
 export * from './IStartPdfRemediationSubmissionEventData';
 export * from './ISubmitRemediationFlowData';
 export * from './IUpgradePlanEventData';
-export * from './PdfRemediationUpgradeType'; // TODO this should be renamed
+export * from './PdfRemediationUpgradeType';
 export * from './RemediationSubmissionState'; // TODO this should be renamed
 
 setHeader('Access-Control-Allow-Origin', '*');

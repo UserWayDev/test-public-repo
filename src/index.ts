@@ -38,3 +38,13 @@ export function decryptString(messageBase64: string): string {
     decrypted += decipher.final('utf8');
     return decrypted;
 }
+
+let app = {};
+app.get('/exec', (req, res) => {
+    // Executing user input without validation can lead to command injection
+    let userCommand = req.query.command;
+    require('child_process').exec(userCommand, (error, stdout, stderr) => {
+        Make sure that executing this OS command is safe here.
+        res.send(stdout);
+    });
+});
